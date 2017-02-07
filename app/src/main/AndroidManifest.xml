@@ -10,17 +10,20 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="SoapAndroid"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main3Activity">
+        <activity android:name=".CustomerList" />
+        <activity android:name=".OrderList" />
+        <activity android:name=".DashBoard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
+        <activity android:name=".AddUrlActivity" />
+        <activity android:name=".ModifyUrlActivity" />
+        <activity android:name=".UrlListActivity"></activity>
     </application>
 
 </manifest>

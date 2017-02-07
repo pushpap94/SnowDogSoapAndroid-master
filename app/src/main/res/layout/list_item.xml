@@ -8,21 +8,50 @@
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="72dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="42dp"
-        android:id="@+id/text_fname" />
+        android:layout_marginTop="13dp"
+        android:id="@+id/text_lname"
+        android:textColor="#ff00bf"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/text_fname"
+        android:layout_alignLeft="@+id/text_fname"
+        android:layout_alignStart="@+id/text_fname" />
 
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
-        android:id="@+id/text_lname"
-        android:layout_below="@+id/text_fname"
-        android:layout_alignLeft="@+id/text_fname"
-        android:layout_alignStart="@+id/text_fname" />
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_email"
+        android:textColor="#8000ff"
+        android:layout_below="@+id/text_lname"
+        android:layout_alignLeft="@+id/text_lname"
+        android:layout_alignStart="@+id/text_lname" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/text_cid"
+        android:textStyle="bold"
+        android:textColor= "#ff0080"
+        android:layout_below="@+id/text_email"
+        android:layout_alignLeft="@+id/text_email"
+        android:layout_alignStart="@+id/text_email" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/text_fname"
+        android:textColor="#ff0080"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
