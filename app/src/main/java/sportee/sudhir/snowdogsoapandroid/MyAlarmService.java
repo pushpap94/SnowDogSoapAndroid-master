@@ -46,8 +46,8 @@ public class MyAlarmService extends Service {
 
         NotificationCompat.Builder builder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.notify)
-                .setContentTitle("Notifications Example")
-                .setContentText("This is My test notification");
+                .setContentTitle("New Notification ")
+                .setContentText("URL Updated Successfully");
 
 
         builder.setContentIntent(pendingNotificationIntent);

@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -24,6 +25,12 @@
         <activity android:name=".AddUrlActivity" />
         <activity android:name=".ModifyUrlActivity" />
         <activity android:name=".UrlListActivity"></activity>
+
+
+        <service android:name=".MyAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name=".MyReceiver"/>
     </application>
 
 </manifest>

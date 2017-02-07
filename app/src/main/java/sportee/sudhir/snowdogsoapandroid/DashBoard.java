@@ -55,7 +55,7 @@ public class DashBoard extends AppCompatActivity {
 
         if (id == R.id.action_settings) {
 
-            Intent intent = new Intent(DashBoard.this, AddUrlActivity.class);
+            Intent intent = new Intent(DashBoard.this, UrlListActivity.class);
             startActivity(intent);
 
             return true;
